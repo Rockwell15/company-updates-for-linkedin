@@ -1,0 +1,27 @@
+/*---- Default style - object container */
+ul#linkedin-con { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); background: #c8c8c8; margin: 0; width: 100%; padding: 20px; }
+ul#linkedin-con h2 { padding: 15px 20px; background: -webkit-linear-gradient(top, #696969 0%, #3f3f3f 100%); background: linear-gradient(to bottom, #696969 0%, #3f3f3f 100%); color: white; margin: -20px -20px 20px; font-weight: 300; font-family: helvetica; font-size: 14px; }
+ul#linkedin-con h2 img { width: 16px; height: 16px; margin-right: 10px; -webkit-clip-path: inset(1px 0 1px 1px); border-radius: 3px; vertical-align: baseline; margin-bottom: -3px; }
+
+/*---- Default style - object item */
+ul#linkedin-con #linkedin-item { padding-top: 0; border: solid 1px #969696; list-style: none; margin: 0 0 20px; position: relative; background: white; }
+ul#linkedin-con #linkedin-item img.linkedin-update-logo { display: none !important; }
+ul#linkedin-con #linkedin-item div { padding: 15px; }
+ul#linkedin-con #linkedin-item div img { display: block; max-width: 100%; margin-bottom: 10px; }
+ul#linkedin-con #linkedin-item i { background: #262626; display: block; margin-left: -1px; margin-right: -1px; margin-top: -1px; font-size: 14px; font-weight: bold; line-height: 16px; color: #fff; padding: 15px 20px; }
+ul#linkedin-con #linkedin-item span a { position: absolute; top: 15px; right: 20px; color: #969696; text-decoration: none; -webkit-transition: .15s linear color; transition: .15s linear color; line-height: 14px; }
+ul#linkedin-con #linkedin-item > a:hover { color: white; }
+ul#linkedin-con #linkedin-item h3 { font-family: arial; font-weight: 600; padding: 0 6px 0 0; color: #0077b5; font-size: 13px; display: inline; }
+ul#linkedin-con #linkedin-item h3 a { box-shadow: none; text-decoration: none; }
+ul#linkedin-con #linkedin-item h3 + p { display: inline; }
+ul#linkedin-con #linkedin-item:last-child { margin: 0; }
+
+/*---- Responsive styling */
+@media (max-width: 500px) {
+	ul#linkedin-con h2 { line-height: 1.8em; padding-left: 46px; }
+	ul#linkedin-con h2 img { margin-left: -26px; }
+	ul#linkedin-con #linkedin-item i { padding-bottom: 46px; }
+	ul#linkedin-con #linkedin-item span a { bottom: 20px; top: auto; right: auto; left: 20px; }
+	ul#linkedin-con #linkedin-item img { margin-left: 0; }
+	ul#linkedin-con #linkedin-item span { position: relative; width: 100%; display: block; }
+}
