@@ -788,7 +788,7 @@ HTML;
 
 				// Build the list of updates
 				$company_updates = '<ul id="linkedin-con" class="' . $args['con_class'] . '">';
-				$company_updates .= '	<h2><img src="' . get_bloginfo('url') . '/wp-content/plugins/company-updates-for-linkedin/img/linkedin-logo.gif" />' . __( 'LinkedIn Company Updates', 'linkedin-company-updates' ) . '</h2>';
+				$company_updates .= '	<h2><img src="' . plugins_url( 'img/linkedin-logo.gif', __FILE__ ) . '" />' . __( 'LinkedIn Company Updates', 'linkedin-company-updates' ) . '</h2>';
 				if ( $array_updates ) {
 					foreach ($array_updates as $update) {
 

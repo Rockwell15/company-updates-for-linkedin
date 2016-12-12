@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LinkedIn Company Updates\n"
+"POT-Creation-Date: 2016-08-30 09:31+0200\n"
+"PO-Revision-Date: 2016-08-30 09:31+0200\n"
+"Last-Translator: Tor Raswill <tor@raswill.se>\n"
+"Language-Team: Tor Raswill <tor@raswill.se>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: linkedin-company-updates.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: linkedin-company-updates.php:93
+msgid "Configuration options for the LinkedIn Company Updates plugin."
+msgstr "Konfiguration för LinkedIn Company Updates-tillägget."
+
+#: linkedin-company-updates.php:141
+msgid "Regenerate Access Token"
+msgstr "Skapa ny auktoriseringstoken"
+
+#: linkedin-company-updates.php:150
+msgid "Authorization token expires in"
+msgstr "Auktoriseringstoken löper ut om"
+
+#: linkedin-company-updates.php:150
+msgid "days"
+msgstr "dagar"
+
+#: linkedin-company-updates.php:150
+msgid "hours"
+msgstr "timmar"
+
+#: linkedin-company-updates.php:152
+msgid "Authorization token has expired, please regenerate."
+msgstr "Auktoriseringstoken har löpt ut, vänligen skapa en ny."
+
+#: linkedin-company-updates.php:156
+msgid "You must authorize first to create a shortcode."
+msgstr "Du måste auktorisera för att skapa en shortcode."
+
+#: linkedin-company-updates.php:285
+msgid ""
+"You have neither cUrl installed nor allow_url_fopen activated. Please setup "
+"one of those!"
+msgstr ""
+"Du har varken cURL installerat eller allow_url_fopen aktiverat. Vänligen "
+"aktivera och ställ in en av dessa!"
+
+#: linkedin-company-updates.php:295
+msgid "Your LinkedIn authorization token has been successfully updated!"
+msgstr "Din auktoriseringstoken mot LinkedIn har uppdaterats!"
+
+#: linkedin-company-updates.php:306
+msgid "Did not recieve an access token!"
+msgstr "Auktoriseringstoken erhölls ej!"
+
+#. Plugin Name of the plugin/theme
+#: linkedin-company-updates.php:313 linkedin-company-updates.php:479
+msgid "LinkedIn Company Updates"
+msgstr ""
+
+#: linkedin-company-updates.php:320
+msgid "Save Changes"
+msgstr ""
+
+#: linkedin-company-updates.php:339
+msgid "Find Your Company ID : "
+msgstr "Hitta ditt företags ID : "
+
+#: linkedin-company-updates.php:349
+msgid "Use this shortcode: "
+msgstr "Använd denna shortcode:"
+
+#: linkedin-company-updates.php:350
+msgid ""
+"Use shortcode [li-company-updates] to put the feed into content. For further "
+"documentation of shortcodes, go <a href=\"#\">Here.</a>"
+msgstr ""
+"Använd shortcode [li-company-updates] för att sätta flödet i innehåll. För "
+"ytterligare dokumentation av kortkoder, se <a href=”#”>här.</a>"
+
+#: linkedin-company-updates.php:352
+msgid ""
+"No companies retrieved! Make sure you're the owner of the company via "
+"LinkedIn"
+msgstr ""
+"Inga företag hämtades! Säkerställ att du är administratör för företaget via "
+"LinkedIn"
+
+#: linkedin-company-updates.php:356
+msgid "Need to authorize first"
+msgstr "Du måste auktorisera först"
+
+#: linkedin-company-updates.php:451
+msgid "Company ID not set"
+msgstr "Du måste ange FöretagsID"
+
+#: linkedin-company-updates.php:488
+msgid "Months"
+msgstr "månader"
+
+#: linkedin-company-updates.php:490
+msgid "Days"
+msgstr "dagar"
+
+#: linkedin-company-updates.php:493
+msgid "Today"
+msgstr "Idag"
+
+#: linkedin-company-updates.php:499 linkedin-company-updates.php:501
+msgid "Ago"
+msgstr "sedan"
+
+#: linkedin-company-updates.php:536
+msgid "View on LinkedIn"
+msgstr "Visa på LinkedIn"
+
+#: linkedin-company-updates.php:547
+msgid "Sorry, no posts were received from LinkedIn!"
+msgstr "Tyvärr hämtades inga inlägg från LinkedIn!"
+
+#: linkedin-company-updates.php:553
+msgid "Authorization has expired"
+msgstr "Auktorisering har löpt ut"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.rockwellgrowth.com/linkedin-company-updates/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Get your company's recent updates with PHP or [shortcodes]"
+msgstr "Få ditt företags senaste uppdateringar med PHP eller [shortcodes]"
+
+#. Author of the plugin/theme
+msgid "Andrew Rockwell"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.rockwellgrowth.com/"
+msgstr ""
+
+#~ msgid "Client ID"
+#~ msgstr "KlientID"
+
+#~ msgid "Your LinkedIn App Client ID."
+#~ msgstr "KlientID för din LinkedIn app."
+
+#~ msgid "Your LinkedIn App Client Secret."
+#~ msgstr "Klienthemlighet"
