@@ -1,0 +1,11 @@
+
+/*---- Tables ----*/
+tr { border-bottom: 1px solid #f1f1f1; }
+table.form-table label { font-style: italic; }
+table.form-table label input:not([type="checkbox"]) { display: block; }
+
+/*---- Inputs ----*/
+input[type="number"] { width: 75px; }
+input[type="text"] { width: 150px; }
+#wpbody-content .lcu-fullwidth { width: 100%; }
+#linkedin_company_updates_shortcode { width: 98%; }

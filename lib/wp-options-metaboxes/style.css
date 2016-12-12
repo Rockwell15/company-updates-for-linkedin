@@ -1,0 +1,14 @@
+
+/*---- Mimic typical metabox ----*/
+.handlediv { float: right; width: 36px; height: 36px; padding: 0; }
+.js .postbox .hndle { font-size: 14px; padding: 8px 12px; margin: 0; line-height: 1.4; cursor: pointer; }
+.js .postbox .hndle a { text-decoration: none; color: gray; margin-left: 10px; }
+.postbox .toggle-indicator:before { content: "\f142"; display: inline-block; font: 400 20px/1 dashicons; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-decoration: none !important; margin-top: 4px; width: 20px; -webkit-border-radius: 50%; border-radius: 50%; text-indent: -1px; }
+.postbox.closed .toggle-indicator:before { content: "\f140"; }
+#poststuff .inside { display: block; }
+
+/*---- Publish metabox ----*/
+.misc-pub-section .form-table { margin: 0; }
+.misc-pub-section .form-table tr { border: none; }
+.misc-pub-section .form-table th { display: none; }
+.misc-pub-section .form-table td { padding: 0; }

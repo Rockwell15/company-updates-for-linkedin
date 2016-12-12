@@ -2,8 +2,8 @@
 Contributors: rockwell15 
 Tags: linkedin,company,update,updates,feed,news,recent,latest,posts
 Requires at least: 3.5
-Tested up to: 4.4
-Stable tag: 1.4
+Tested up to: 4.7
+Stable tag: 1.5
 License: GPLv2
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
@@ -23,11 +23,7 @@ This plugin uses LinkedIn's API to retrieve the user's company updates, which ca
 * PHP implementation option
 * Responsive default styling
 * Images now appear in feed
-
-**Coming Soon:**
-
 * Email & admin notification for expired tokens
-* Extra Style Options
 
 
 == Installation ==
@@ -59,9 +55,9 @@ This plugin uses LinkedIn's API to retrieve the user's company updates, which ca
 
 5. Then copy the redirect URL on the plugins settings page
 
-6. And paste / click "Add" under OAuth 2.0 Authentication redirect URLs
+6. And paste under OAuth 2.0 Authentication redirect URLs then click "Add"
 
-7. DONT FORGET TO CHECK OFF "rw\_company\_admin" AND UPDATE THE LINKEDIN APP
+7. Check "rw\_company\_admin" (Above the OAuth 2.0 field) and click update (at the bottom of the form)
 
 8. Add CSS classes for the feed container & items if you plan on custom design
 
@@ -85,7 +81,31 @@ This plugin uses LinkedIn's API to retrieve the user's company updates, which ca
 
 
 == Changelog ==
+**Version 1.5 - 12/11/16**
+
+* Moved javascript to it's own file
+* Added versioning to scripts
+* Fixed javascript shortcode generation bugs
+* Improved user flow
+* Fixed image stretch issue
+* Added company intro
+* Improved css
+
+**Version 1.4.3 - 5/10/16**
+
+* Fixed function bug
+* Fixed stray string bug
+
+**Version 1.4.2 - 5/8/16**
+
+* Changed image functionality
+
+**Version 1.4.1 - 4/6/16**
+
+* Fixed image bug
+
 **Version 1.4 - 4/6/16**
+
 * Added cURL fallback & error message if allow_url_fopen is disabled as well
 
 **Version 1.3 - 3/20/16**
