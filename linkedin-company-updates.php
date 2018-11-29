@@ -820,7 +820,7 @@ HTML;
 						// Create the link to the post
 						$update_pieces = explode( '-', $update['updateKey'] );
 						$update_id = end( $update_pieces );
-						$update_url = 'https://www.linkedin.com/nhome/updates?topic=' . $update_id;
+						$update_url = 'https://www.linkedin.com/updates?topic=' . $update_id;
 
 						// Add this item to the update string
 						$company_updates .= '<li id="linkedin-item" class="' . $args['item_class'] . '">';
