@@ -745,8 +745,9 @@ HTML;
 
 			$month_string = $months . ' ' . __('Months');
 			$days_string  = ( 1 === $days ) ? $days . ' ' . __('Day') : $days . ' ' . __('Days');
+			$is_today = 0 === $d1->diff( $d2 )->days;
 
-			if ( 0 == $d1->diff( $d2 )->days ) {
+			if ( $is_today ) {
 				$time_ago = __('Today');
 			} elseif ( isset( $months ) && $months > 0 ) {
 				$time_ago = $month_string;
@@ -757,7 +758,7 @@ HTML;
 				$time_ago = $days_string;
 			}
 
-			return $time_ago . ' ' . __('Ago');
+			return $is_today ? $time_ago : $time_ago . ' ' . __('Ago');
 
 		}
 
@@ -819,7 +820,7 @@ HTML;
 						// Create the link to the post
 						$update_pieces = explode( '-', $update['updateKey'] );
 						$update_id = end( $update_pieces );
-						$update_url = 'https://www.linkedin.com/nhome/updates?topic=' . $update_id;
+						$update_url = 'https://www.linkedin.com/updates?topic=' . $update_id;
 
 						// Add this item to the update string
 						$company_updates .= '<li id="linkedin-item" class="' . $args['item_class'] . '">';
