@@ -745,8 +745,9 @@ HTML;
 
 			$month_string = $months . ' ' . __('Months');
 			$days_string  = ( 1 === $days ) ? $days . ' ' . __('Day') : $days . ' ' . __('Days');
+			$is_today = 0 === $d1->diff( $d2 )->days;
 
-			if ( 0 == $d1->diff( $d2 )->days ) {
+			if ( $is_today ) {
 				$time_ago = __('Today');
 			} elseif ( isset( $months ) && $months > 0 ) {
 				$time_ago = $month_string;
@@ -757,7 +758,7 @@ HTML;
 				$time_ago = $days_string;
 			}
 
-			return $time_ago . ' ' . __('Ago');
+			return $is_today ? $time_ago : $time_ago . ' ' . __('Ago');
 
 		}
 
